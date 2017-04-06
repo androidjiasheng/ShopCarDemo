@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <View
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/no_good"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <Button
+            android:textSize="14sp"
+            android:id="@+id/goto_shopping"
+            android:background="@drawable/input_background"
+            android:textColor="@color/textgreencolor"
+            android:text="前去逛逛"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ShopCarDemo</string>
+    <string name="complete">完成</string>
+    <string name="edit">编辑</string>
+</resources>
